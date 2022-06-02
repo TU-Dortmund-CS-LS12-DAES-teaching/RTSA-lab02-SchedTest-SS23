@@ -19,7 +19,7 @@ The tasksets are represented by a 2D array, where row i is a Task i and the colu
 
 ## Runing the Tests
 
-Make sure you have at least python3, argparse and numpy installed.
+Make sure you have at least python3, argparse, numpy and tabulate installed.
 Argpoarse and Numpy can be installed via pip.
 
 Use the SchedTest.py Script
