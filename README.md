@@ -1,4 +1,4 @@
-# RTSA-lab01-SchedulabilityTest
+# RTSA-lab02-SchedulabilityTest
 In this lab session you will learn how to implement the schedulability tests for:
 
   * Liu and Layland Bound
