@@ -1,9 +1,9 @@
 # RTSA-lab02-SchedulabilityTest
 In this lab session you will learn how to implement the schedulability tests for:
 
-  * Liu and Layland Bound
-  * Time Demand Analysis
-  * Hyperbolic Bound
+  * Liu and Layland Bound, see [ResAugmentation](https://moodle.tu-dortmund.de/pluginfile.php/1976120/course/section/428170/ResAugmentation.pdf) slide 27.
+  * Time Demand Analysis, see [Sporadic-FP](https://moodle.tu-dortmund.de/pluginfile.php/1976120/course/section/428170/Sporadic-FP.pdf) slide 38.
+  * Hyperbolic Bound, see [ResAugmentation](https://moodle.tu-dortmund.de/pluginfile.php/1976120/course/section/428170/ResAugmentation.pdf) slide 36.
 
 All Tasks are periodic, preemptable, fixed priority Tasks with implicit Deadlines.
 
