@@ -62,7 +62,7 @@ def generate_utilizations_uniform(num_tasks, num_tasksets, utilization):
                 cumulative_utilization - cumulative_utilization_next)
             # Compute remaining utilization.
             cumulative_utilization = cumulative_utilization_next
-        utilizations.append(cumulative_utilization_next)
+        utilizations.append(cumulative_utilization_next) # type: ignore
         # Return list of utilizations.
         return utilizations
     # Return one list of utilizations for each task set.
@@ -98,4 +98,3 @@ def gen_np_taskset(NrTasks):
     for i in range(55,101,3):
         tasksets.append(gen_tasksets(NrTasks,1,1,100,i/100)[0])
     return np.array(tasksets)
-

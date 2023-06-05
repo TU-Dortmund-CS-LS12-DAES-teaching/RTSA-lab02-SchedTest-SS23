@@ -38,7 +38,7 @@ def main():
     # Parse Arguments
     args = parse_args()
     print(args.i)
-    np.set_printoptions(threshold=np.inf)
+    #np.set_printoptions(threshold=np.inf)
     # Read Tasksets from txt files
     tasksets = get_tasksets(args.i, args.n)
     #tasksets = gen.gen_np_taskset(100)
